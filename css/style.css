@@ -485,7 +485,7 @@
 }
 
 :root {
-    --primary: #C59D5F;
+    --primary: #2A7FFF;
 }
 
 .text-primary { color: var(--primary) !important; }
@@ -494,6 +494,7 @@
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
 }
+
 
 
 
