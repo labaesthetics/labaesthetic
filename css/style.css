@@ -476,17 +476,21 @@
 }
 <!-- Hero toUp is correct -->
 
-.btn-primary::before,
-.btn-primary::after,
-.btn-dark::before,
-.btn-dark::after {
+.btn-square,
+.btn-square.btn-primary,
+.btn-square.btn-dark {
+    border: none !important;       /* remove default borders */
+    outline: none !important;      /* remove focus outline */
+    box-shadow: none !important;   /* remove extra shadows */
+}
+
+/* remove pseudo-elements from squares */
+.btn-square::before,
+.btn-square::after {
     content: none !important;
 }
 
-.btn-square.btn-primary,
-.btn-square.btn-dark {
-    border: none !important;
-}
+
 
 
 
