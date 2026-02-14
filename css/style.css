@@ -476,27 +476,12 @@
 }
 <!-- Hero toUp is correct -->
 
-.btn-square,
-.btn-square:focus,
-.btn-square:active {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
+.btn-primary::before,
+.btn-primary::after,
+.btn-dark::before,
+.btn-dark::after {
+    content: none !important;
 }
-
-:root {
-    --primary: #2A7FFF;
-}
-
-.text-primary { color: var(--primary) !important; }
-.bg-primary { background-color: var(--primary) !important; }
-.btn-primary {
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
-}
-
-
-
 
 
 
