@@ -119,21 +119,22 @@
                     Lash Treatments
                 </h1>
             </div>-->
-            <div id="lash-services" class="ps-4 pe-4"> <!-- padding left & right -->
-            <h1 class="mb-0 position-relative d-inline-block">
-                Lash Treatments
-                <span style="
-                    position: absolute;
-                    left: 100%;          /* start after the text */
-                    top: 50%;            /* vertical center of the text */
-                    transform: translateY(50%); 
-                    height: 3px;         /* thickness of the line */
-                    width: calc(100vw - 4rem - 100%); /* full page width minus left/right padding minus text width */
-                    background-color: var(--bs-primary);
-                    display: inline-block;
-                "></span>
-            </h1>
-        </div>
+            <div id="lash-services" class="ps-4 pe-4">
+                <h1 class="mb-0 position-relative d-inline-block">
+                    Lash Treatments
+                    <span style="
+                        position: absolute;
+                        left: 0;
+                        top: 100%;              /* puts the line BELOW the text */
+                        margin-top: 8px;       /* distance between text and line */
+                        height: 3px;           /* thickness */
+                        width: calc(100vw - 4rem); /* full width minus container padding */
+                        background-color: var(--bs-primary);
+                        display: block;
+                    "></span>
+                </h1>
+            </div>
+
 
 
 
@@ -485,6 +486,7 @@
 
 
 </html>
+
 
 
 
