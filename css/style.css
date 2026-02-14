@@ -475,5 +475,13 @@
     max-height: 60px;
 }
 
+.btn-square,
+.btn-square:focus,
+.btn-square:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 
 
