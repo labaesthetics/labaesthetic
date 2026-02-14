@@ -483,5 +483,18 @@
     box-shadow: none !important;
 }
 
+:root {
+    --primary: #C59D5F;
+}
+
+.text-primary { color: var(--primary) !important; }
+.bg-primary { background-color: var(--primary) !important; }
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+
+
 
 
