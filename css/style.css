@@ -483,6 +483,13 @@
     content: none !important;
 }
 
+.btn-square.btn-primary,
+.btn-square.btn-dark {
+    border: none !important;
+}
+
+
+
 
 
 
