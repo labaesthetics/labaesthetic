@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Prices</title>
 
+<head>
+    <meta charset="utf-8">
+    <title>Prices - LAB Aesthetics</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Redirect script -->
     <script>
-        window.location.replace("https://www.treatwell.nl/");
+        window.onload = function() {
+            window.location.href = "https://www.treatwell.nl/";
+        };
     </script>
 
+    <!-- Optional: keep same styling so no errors -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-Redirecting...
+<div class="container text-center py-5">
+    <h3>Redirecting to prices...</h3>
+    <p>If nothing happens, click below:</p>
+
+    <a href="https://www.treatwell.nl/" class="btn btn-primary">
+        Go to Prices
+    </a>
+</div>
 
 </body>
+
 </html>
