@@ -476,26 +476,6 @@
 }
 <!-- Here toUp is correct -->
 
-<!-- Farzam for color --- -->
-:root {
-
-    /* MAIN THEME COLOR */
-    --bs-primary: #28a745;      /* change this to your theme color */
-
-    /* SECONDARY COLOR */
-    --bs-secondary: #6c757d;
-
-    /* DARK COLOR */
-    --bs-dark: #212529;
-
-    /* LIGHT COLOR */
-    --bs-light: #f8f9fa;
-
-    /* WHITE */
-    --bs-white: #ffffff;
-
-}
-<!-- end Farzam for color --- -->
 
 
 
