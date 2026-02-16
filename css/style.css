@@ -1,31 +1,5 @@
 /********** Template CSS **********/
 
-:root {
-
-    /* MAIN THEME COLOR */
-    --bs-primary: #C19A6B;
-    --bs-primary-rgb: 193, 154, 107;
-
-    /* SECONDARY */
-    --bs-secondary: #C19A6B;
-    --bs-secondary-rgb: 193, 154, 107;
-
-    /* DARK (used for text, borders, buttons) */
-    --bs-dark: #C19A6B;
-    --bs-dark-rgb: 193, 154, 107;
-
-    /* LIGHT */
-    --bs-light: #f8f9fa;
-    --bs-light-rgb: 248, 249, 250;
-
-    /* WHITE */
-    --bs-white: #ffffff;
-    --bs-white-rgb: 255, 255, 255;
-
-}
-
-
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -502,6 +476,29 @@
 }
 <!-- Here toUp is correct -->
 
+:root {
+
+    /* MAIN THEME COLOR */
+    --bs-primary: #C19A6B;
+    --bs-primary-rgb: 193, 154, 107;
+
+    /* SECONDARY */
+    --bs-secondary: #C19A6B;
+    --bs-secondary-rgb: 193, 154, 107;
+
+    /* DARK (used for text, borders, buttons) */
+    --bs-dark: #C19A6B;
+    --bs-dark-rgb: 193, 154, 107;
+
+    /* LIGHT */
+    --bs-light: #f8f9fa;
+    --bs-light-rgb: 248, 249, 250;
+
+    /* WHITE */
+    --bs-white: #ffffff;
+    --bs-white-rgb: 255, 255, 255;
+
+}
 
 
 
