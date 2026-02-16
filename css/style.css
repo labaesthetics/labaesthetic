@@ -4,7 +4,7 @@
 :root {
 
     /* MAIN THEME COLOR */
-    --bs-primary: #007BFF;      /* change this to your theme color */
+    --bs-primary: #28a745;      /* change this to your theme color */
 
     /* SECONDARY COLOR */
     --bs-secondary: #6c757d;
@@ -496,6 +496,7 @@
     max-height: 60px;
 }
 <!-- Here toUp is correct -->
+
 
 
 
