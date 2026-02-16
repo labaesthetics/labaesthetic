@@ -1,15 +1,13 @@
 
-/* changing the colors 
-:root {
-
+/*** changing the colors ***/
+/*** :root {
     /* CHANGE THIS TO YOUR LIGHT GRAY COLOR */
     --bs-primary: #d3d3d3;
     --bs-primary-rgb: 211, 211, 211;
-
     --bs-dark: #d3d3d3;
     --bs-dark-rgb: 211, 211, 211;
-}
-*/
+} ***/
+
 
 
 /********** Template CSS **********/
@@ -489,6 +487,7 @@
     max-height: 60px;
 }
 <!-- Here toUp is correct -->
+
 
 
 
