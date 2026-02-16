@@ -1,5 +1,11 @@
 /********** Template CSS **********/
 
+:root {
+    --bs-primary: #ff0000;
+    --bs-primary-rgb: 255, 0, 0;
+}
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -475,6 +481,7 @@
     max-height: 60px;
 }
 <!-- Here toUp is correct -->
+
 
 
 
