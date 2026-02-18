@@ -233,30 +233,35 @@
                         </form> -->
                         <form action="https://formsubmit.co/info@labaesthetic.com" method="POST">
 
+                            <!-- Required FormSubmit settings -->
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_subject" value="New message from LAB Aesthetics website">
-                            <input type="hidden" name="_next" value="thankyou.html">
+                            <input type="hidden" name="_next" value="./thankyou.html">
                             <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_autoresponse" value="Thank you for contacting LAB Aesthetics. We will reply as soon as possible.">
+                        
+                            <!-- Prevent FormSubmit error -->
+                            <input type="text" name="_honey" style="display:none">
                         
                             <div class="row g-3">
                         
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                        <input type="text" name="name" class="form-control" required>
                                         <label>Your Name</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                                        <input type="email" name="email" class="form-control" required>
                                         <label>Your Email</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                                        <input type="text" name="subject" class="form-control" required>
                                         <label>Subject</label>
                                     </div>
                                 </div>
@@ -277,6 +282,7 @@
                             </div>
                         
                         </form>
+
 
 
 
@@ -384,6 +390,7 @@
 
 
 </html>
+
 
 
 
