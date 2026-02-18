@@ -233,44 +233,43 @@
                         </form> -->
                         <form action="https://formsubmit.co/info@labaesthetic.com" method="POST">
 
+                            <!-- Required hidden fields -->
                             <input type="hidden" name="_captcha" value="false">
-                        
                             <input type="hidden" name="_subject" value="New message from LAB Aesthetics website">
-                        
                             <input type="hidden" name="_next" value="thankyou.html">
                         
                             <div class="row g-3">
                         
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                                         <label>Your Name</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                                         <label>Your Email</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
                                         <label>Subject</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" name="message" placeholder="Leave a message here" style="height: 150px" required></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Leave a message here" style="height:150px" required></textarea>
                                         <label>Message</label>
                                     </div>
                                 </div>
                         
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3 ms-0" type="submit">
+                                    <button type="submit" class="btn btn-primary w-100 py-3">
                                         SEND MESSAGE
                                     </button>
                                 </div>
@@ -278,6 +277,7 @@
                             </div>
                         
                         </form>
+
 
 
                     </div>
@@ -383,6 +383,7 @@
 
 
 </html>
+
 
 
 
