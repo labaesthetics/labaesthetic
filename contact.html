@@ -200,7 +200,7 @@
                 <div class="col-lg-7">
                     <h4 class="text-center lh-base mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a href="https://htmlcodex.com/downloading/?item=3597">Pro Version</a> only.</h4>
                     <div class="wow fadeIn" data-wow-delay="0.3s">
-                        <form>
+                        <!-- <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
@@ -230,7 +230,58 @@
                                     <button class="btn btn-primary w-100 py-3 ms-0" type="submit">SEND MESSAGE</button>
                                 </div>
                             </div>
+                        </form> -->
+                        <form action="https://formsubmit.co/info@labaesthetic.com" method="POST">
+
+                            <!-- Disable captcha -->
+                            <input type="hidden" name="_captcha" value="false">
+                        
+                            <!-- Email subject -->
+                            <input type="hidden" name="_subject" value="New message from LAB Aesthetics website">
+                        
+                            <!-- Optional: redirect after submit -->
+                            <input type="hidden" name="_next" value="https://www.labaesthetics.nl/thankyou.html">
+                        
+                            <div class="row g-3">
+                        
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                        <label>Your Name</label>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                        <label>Your Email</label>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                                        <label>Subject</label>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" name="message" placeholder="Leave a message here" style="height: 150px" required></textarea>
+                                        <label>Message</label>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3 ms-0" type="submit">
+                                        SEND MESSAGE
+                                    </button>
+                                </div>
+                        
+                            </div>
+                        
                         </form>
+
                     </div>
                 </div>
             </div>
@@ -334,6 +385,7 @@
 
 
 </html>
+
 
 
 
