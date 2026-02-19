@@ -263,7 +263,8 @@
 
 .page-header {
     background: url(../img/page-header.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover; 
+    <!-- background-size: contain; cover -->
 }
 
 
@@ -475,6 +476,7 @@
     max-height: 60px;
 }
 <!-- Here toUp is correct -->
+
 
 
 
