@@ -477,6 +477,15 @@
 }
 <!-- Here toUp is correct -->
 
+.service-item {
+    text-align: center;
+}
+
+.service-item p {
+    text-align: justify;
+}
+
+
 
 
 
