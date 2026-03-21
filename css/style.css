@@ -493,48 +493,6 @@
     flex-wrap: wrap;
 }
 
-<!-- star rating -->
-.rating-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1rem;
-    flex-wrap: wrap;
-}
-
-.rating-stars {
-    --rating: 5;
-    --star-size: 24px;
-    --star-color: #dcdcdc;
-    --star-fill: #f4c542;
-    position: relative;
-    display: inline-block;
-    font-size: var(--star-size);
-    line-height: 1;
-    letter-spacing: 3px;
-}
-
-.rating-stars::before {
-    content: "★★★★★";
-    color: var(--star-color);
-}
-
-.rating-stars::after {
-    content: "★★★★★";
-    color: var(--star-fill);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(var(--rating) / 5 * 100%);
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.rating-text {
-    font-weight: 600;
-    color: #333;
-}
-
 
 
 
