@@ -485,8 +485,43 @@
     text-align: justify;
 }
 
+.rating-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
 
+<!-- star rating -->
+.rating-stars {
+    --rating: 5;
+    --star-size: 24px;
+    --star-color: #dcdcdc;
+    --star-fill: #f4c542;
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Arial, sans-serif;
+    line-height: 1;
+}
 
+.rating-stars::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    background: linear-gradient(
+        90deg,
+        var(--star-fill) var(--percent),
+        var(--star-color) var(--percent)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-text {
+    font-weight: 600;
+    color: #333;
+}
 
 
 
